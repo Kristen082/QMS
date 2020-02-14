@@ -1,0 +1,11 @@
+
+
+.box{
+    position: relative;
+    height: auto;
+    padding: 6px;
+    background: #fff;
+}
+.Pagination{
+    position: relative;
+}

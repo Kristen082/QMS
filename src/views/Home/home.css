@@ -1,0 +1,99 @@
+.ant-layout{
+    width: 100%;
+    height: 100%;
+    /* background: #353f5a; */
+}
+.ant-layout-header{
+    background: linear-gradient( #df5555,#b50f10,#df5555);
+    height: 50px;
+    padding: 0 20px;
+    line-height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.ant-layout-footer{
+    height: 20px;
+    text-align: right;
+    color:#999;
+}
+.ant-menu-item{
+    height: 30px!important;
+    line-height: 30px!important;
+}
+.ant-layout-sider-children {
+    overflow: auto;
+    background: #fff;
+    zoom: 85%;
+}
+.ant-layout-sider{
+    margin:16px 0;
+}
+.ant-menu-inline-collapsed {
+    width: 100%;
+}
+.ant-layout-content{
+    padding: 4px!important;
+}
+.trigger{
+    height: 44px;
+    line-height: 44px;
+    background-color: #e21e1f;
+    color: #fff;
+}
+.trigger i{
+    float: right;
+    line-height: 44px;
+}
+.content_box{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: auto;
+}
+
+.row_1,.row_2{
+    display: flex;
+    width: 100%;
+}
+.row_1 div:not(:first-child),.row_2 div:not(:last-child){
+    flex: 1;
+    width: 50%!important;
+}
+.row_1 div:first-child,.row_2 div:last-child{
+    width: 45%;
+}
+.row_1 div,.row_2 div{
+    height: 270px;
+    color: #fff;
+    padding: 15px 10px;
+    display: inline-block;
+    margin: 2px;
+    overflow: hidden;
+}
+.titlefont{
+    font-size: 22px;
+}
+.language{
+    position: absolute;
+    right: 5%;
+}
+.bodyfont{
+    font-size:18px;
+}
+.page-tabs a.active {
+    background: #d8dfe5!important;
+}
+.page-tabs a i:hover{
+    background-color: rgba(255, 255, 255, .3)!important;
+}
+
+.Build{background: #29a8eb;}
+.Create{background: #80cef5;}
+.Run{background: #ed9c04;}
+.What{background: #d7df34;}
+.Print{background: #91c443;}
+.Manage{background: #29a8eb;}

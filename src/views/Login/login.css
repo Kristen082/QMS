@@ -1,0 +1,31 @@
+.wrapper{
+  width: 100%;
+  height: 100%;
+  background-image: radial-gradient(#a60000, #a60000, #a60000);
+  /* background-color: url(../../imgs/background.png) no-repeat; */
+  background-size: 100% 100%;  
+}
+
+.background{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.inps{
+  width: 13%;
+  position: absolute;
+  top: 52%;
+  left: 43%;
+}
+.inps input{
+  margin: 6px;
+  height: 80%;
+  border: 0px;
+  width: 100%;
+  outline: none;
+  background: #e6e6e6;
+}
+.Sign{
+  width: 100%;
+  margin: 0 5px;
+}
