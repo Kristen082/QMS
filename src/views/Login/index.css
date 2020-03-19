@@ -1,0 +1,34 @@
+.wrapper{
+    width: 100%;
+    height: 100%;
+    background-image: radial-gradient(#a60000, #a60000, #a60000);
+    /* background-color: url(../../imgs/background.png) no-repeat; */
+    background-size: 100% 100%;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .background{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+  .inps{
+    width: 13%;
+    position: absolute;
+    top: 51%;
+    left: 45%;
+  }
+  .inps input{
+    margin: 6px 0 6px 6px;
+    height: 30px;
+    border: 0px;
+    width: 100%;
+    outline: none;
+    background: #e6e6e6;
+  }
+  .Sign{
+    width: 100%;
+    margin: 0 5px;
+  }

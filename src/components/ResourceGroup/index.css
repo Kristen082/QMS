@@ -1,0 +1,9 @@
+.checkbox_res{
+    width: 70%;
+    position: relative;
+    left: 15%;
+    border: 1px solid;
+    margin: 10px;
+    height: 300px;
+    overflow: scroll;
+}
